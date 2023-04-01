@@ -15,8 +15,8 @@ header{
 	width:33%;
 }
 .logo img:hover{
-	 transform: scale(1.5);
-	  transition: transform .90s
+	 transform: scale(1.2);
+	  transition: transform .4s
 }
 .title{
 	float:right;
@@ -60,6 +60,10 @@ main{
 	padding-top:300px;
 	margin:auto;
 	text-align:center;
+	
+}
+.main-container div{
+border:black solid 2px;
 }
 .main-container img{
 	border:black 2px solid;
@@ -104,6 +108,57 @@ footer{
 	color:black;
 	text-align:center;
 }
-.main-container p{
-	font-style:Coolvetica;
+.piata{
+	width:60%;
+	margin:auto;
+	padding:50px;
+	padding-top:200px;
+	margin:auto;
+	text-align:center;
+	
+}
+.piata div{
+	border:black solid 2px;
+	padding-bottom:90px;
+	margin-top:20px;
+	margin:auto;
+	background-color:white;
+}
+.piata img{
+	width:15%;
+	margin-top:50px;
+	
+}
+.piata p{
+	width:90%;
+	background-color:black;
+	margin:auto;
+	color:#C8B26B;
+	font-size:20px;
+}
+aside{
+	background-color:white;
+	float:left;
+	width:15%;
+	margin-top:200px;
+	margin-left:30px;
+	text-align:center;
+	border:black solid 2px;
+}
+.aside-container img{
+	width:70%;
+	margin-top:30px;
+}
+.aside-container img:hover{
+	 transform: scale(1.2);
+	  transition: transform .4s
+}
+aside h1{
+	text-decoration:underline;
+}
+aside a:link {
+  color: black;
+}
+aside a:hover {
+  color: #C8B26B;
 }
