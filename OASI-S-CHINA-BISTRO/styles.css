@@ -60,7 +60,7 @@ main{
 	padding-top:300px;
 	margin:auto;
 	text-align:center;
-	
+	 
 }
 .main-container div{
 border:black solid 2px;
@@ -103,6 +103,9 @@ footer{
 	width:30%;
 	float:right;
 	color:white;
+}
+.social-media{
+	text-align:center;
 }
 .copyright{
 	color:black;
@@ -161,4 +164,53 @@ aside a:link {
 }
 aside a:hover {
   color: #C8B26B;
+}
+.contact-container{
+	width:100%;
+	padding-top:160px;
+	margin:auto;
+	text-align:center;
+}
+.div1{
+	border:black solid 2px;
+	 background-image: url("images/contact-us(1).jpg");
+    background-repeat: no-repeat;
+	 background-size: cover; 
+	 height:400px;
+	 background-position: center;
+	 margin-bottom:40px;
+}
+.div2{
+
+	width:40%;
+	margin:auto;
+	border:black solid 2px;
+}
+.div1 h1{
+	color:white;
+	padding-top:70px;
+	font-size:50px;
+}
+.contact-container p{
+	font-size:28px;
+}
+form{
+	
+}
+.div3{
+	border:black solid 2px;
+	 background-image: url("images/restaurant21.jpg");
+    background-repeat: no-repeat;
+	 background-size: cover; 
+	 height:400px;
+	 background-position: center;
+	 margin-top:40px;
+	 color:white;
+	 
+}
+.div3 p{
+	font-size:22px;
+	text-align:justify;
+	width:70%;
+	margin:auto;
 }
