@@ -68,7 +68,7 @@ main{
 	font-family:Ink Free;
 }
 .main-container div{
-	border:black solid 1px;
+	border:black solid 2px;
 	background-image: url("images/bezowe-tlo-zblizenie-tekstury-zmiety-papier-miejsce-miejsce-na-tekst-retro_213524-117.jpg");
     background-repeat: no-repeat;
 	 background-size: cover;
@@ -148,9 +148,9 @@ footer{
 }
 .piata p{
 	width:90%;
-	background-color:black;
+	background-color:white;
 	margin:auto;
-	color:#C8B26B;
+	color:black;
 	font-size:20px;
 }
 aside{
@@ -161,6 +161,7 @@ aside{
 	width:15%;
 	margin-top:200px;
 	margin-left:30px;
+	margin-right:30px;
 	text-align:center;
 	border:black solid 2px;
 }
@@ -212,7 +213,9 @@ aside a:hover {
 	font-size:28px;
 }
 form{
-	
+	background-image: url("images/bezowe-tlo-zblizenie-tekstury-zmiety-papier-miejsce-miejsce-na-tekst-retro_213524-117.jpg");
+    background-repeat: no-repeat;
+	 background-size: cover; 
 }
 .div3{
 	border:black solid 2px;
@@ -236,13 +239,14 @@ form{
   color: #C8B26B;
 }
 .special img{
-	
-	width:81%;
+	border:black solid 2px;
+	width:78%;
 	margin-right:0px;
 	text-align:right;
 }
 .special h1{
 	padding-top:220px;
+	padding-bottom:50px;
 	text-align:center;
 	font-family:Ink Free;
 }
