@@ -24,6 +24,10 @@ header{
 	text-align:center;
 	width:33%;
 }
+.title h1 {
+	margin-bottom:0px;
+}
+
 h3{
 	color:#C8B26B;
 }
@@ -51,19 +55,24 @@ nav div {
 	font-size:26px;
 }
 main{
-	background-color:#C8B26B;
+	background-color:#E0E0E0;
 }
 .main-container{
-	width:78%;
+	width:68%;
 	margin:auto;
 	padding:50px;
-	padding-top:300px;
+	padding-top:200px;
 	margin:auto;
 	text-align:center;
-	 
+	font-weight:900;
+	font-family:Ink Free;
 }
 .main-container div{
-border:black solid 2px;
+	border:black solid 1px;
+	background-image: url("images/bezowe-tlo-zblizenie-tekstury-zmiety-papier-miejsce-miejsce-na-tekst-retro_213524-117.jpg");
+    background-repeat: no-repeat;
+	 background-size: cover;
+	padding:40px;
 }
 .main-container img{
 	border:black 2px solid;
@@ -106,6 +115,7 @@ footer{
 }
 .social-media{
 	text-align:center;
+	padding:30px;
 }
 .copyright{
 	color:black;
@@ -125,7 +135,11 @@ footer{
 	padding-bottom:90px;
 	margin-top:20px;
 	margin:auto;
-	background-color:white;
+	background-image: url("images/bezowe-tlo-zblizenie-tekstury-zmiety-papier-miejsce-miejsce-na-tekst-retro_213524-117.jpg");
+    background-repeat: no-repeat;
+	 background-size: cover; 
+	 font-weight:900;
+	font-family:Ink Free;
 }
 .piata img{
 	width:15%;
@@ -140,7 +154,9 @@ footer{
 	font-size:20px;
 }
 aside{
-	background-color:white;
+	background-image: url("images/bezowe-tlo-zblizenie-tekstury-zmiety-papier-miejsce-miejsce-na-tekst-retro_213524-117.jpg");
+    background-repeat: no-repeat;
+	 background-size: cover; 
 	float:left;
 	width:15%;
 	margin-top:200px;
@@ -167,7 +183,7 @@ aside a:hover {
 }
 .contact-container{
 	width:100%;
-	padding-top:160px;
+	padding-top:130px;
 	margin:auto;
 	text-align:center;
 }
@@ -179,6 +195,7 @@ aside a:hover {
 	 height:400px;
 	 background-position: center;
 	 margin-bottom:40px;
+	
 }
 .div2{
 
@@ -213,4 +230,19 @@ form{
 	text-align:justify;
 	width:70%;
 	margin:auto;
+	padding-top:50px;
+}
+.contact-container a:hover {
+  color: #C8B26B;
+}
+.special img{
+	
+	width:81%;
+	margin-right:0px;
+	text-align:right;
+}
+.special h1{
+	padding-top:220px;
+	text-align:center;
+	font-family:Ink Free;
 }
