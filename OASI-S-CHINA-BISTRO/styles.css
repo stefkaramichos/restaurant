@@ -20,7 +20,7 @@ header{
 }
 .title{
 	float:right;
-	color:#C8B26B;
+	color:#93A5B2;
 	text-align:center;
 	width:33%;
 }
@@ -29,7 +29,7 @@ header{
 }
 
 h3{
-	color:#C8B26B;
+	color:#ffffff;
 }
 nav li{
 	display:inline;
@@ -37,7 +37,7 @@ nav li{
 	
 }
 nav li a:hover {
-  background-color: #C8B26B;
+  background-color: #94A6B3;
 }
 nav{
 	float:right;
@@ -45,17 +45,17 @@ nav{
 	text-align:center;
 }
 .title div a:link {
-  color: #C8B26B;
+  color: #ffffff;
   text-decoration: none;
 }
 .title div a:hover {
-  color: white;
+  color: #242424;
 }
 nav div {
 	font-size:26px;
 }
 main{
-	background-color:#E0E0E0;
+	background-color:#94A6B3;
 }
 .main-container{
 	width:68%;
@@ -64,19 +64,16 @@ main{
 	padding-top:200px;
 	margin:auto;
 	text-align:center;
-	font-weight:900;
-	font-family:Ink Free;
 }
 .main-container div{
 	border:black solid 2px;
-	background-image: url("images/bezowe-tlo-zblizenie-tekstury-zmiety-papier-miejsce-miejsce-na-tekst-retro_213524-117.jpg");
-    background-repeat: no-repeat;
-	 background-size: cover;
+	background-color:#ffffff;
 	padding:40px;
 }
 .main-container img{
 	border:black 2px solid;
 	width:100%;
+	
 }
 .main-container a img{
 	width:31%;
@@ -95,9 +92,11 @@ footer{
 	width:90%;
 	margin:auto;
 	padding-top:30px;
+	
 }
 .footer-container p {
 	font-size:18px;
+	color:#ffffff;
 }
 .hours{
 	color:white;
@@ -135,11 +134,8 @@ footer{
 	padding-bottom:90px;
 	margin-top:20px;
 	margin:auto;
-	background-image: url("images/bezowe-tlo-zblizenie-tekstury-zmiety-papier-miejsce-miejsce-na-tekst-retro_213524-117.jpg");
-    background-repeat: no-repeat;
-	 background-size: cover; 
-	 font-weight:900;
-	font-family:Ink Free;
+	 background-color:#ffffff;
+	
 }
 .piata img{
 	width:15%;
@@ -148,15 +144,12 @@ footer{
 }
 .piata p{
 	width:90%;
-	background-color:white;
+	background-color:#94A6B3;
 	margin:auto;
-	color:black;
 	font-size:20px;
 }
 aside{
-	background-image: url("images/bezowe-tlo-zblizenie-tekstury-zmiety-papier-miejsce-miejsce-na-tekst-retro_213524-117.jpg");
-    background-repeat: no-repeat;
-	 background-size: cover; 
+	background-color:#ffffff;
 	float:left;
 	width:15%;
 	margin-top:200px;
@@ -164,6 +157,9 @@ aside{
 	margin-right:30px;
 	text-align:center;
 	border:black solid 2px;
+}
+aside a:visited {
+  color: black;
 }
 .aside-container img{
 	width:70%;
@@ -180,7 +176,7 @@ aside a:link {
   color: black;
 }
 aside a:hover {
-  color: #C8B26B;
+  color: #94A6B3;
 }
 .contact-container{
 	width:100%;
@@ -213,9 +209,7 @@ aside a:hover {
 	font-size:28px;
 }
 form{
-	background-image: url("images/bezowe-tlo-zblizenie-tekstury-zmiety-papier-miejsce-miejsce-na-tekst-retro_213524-117.jpg");
-    background-repeat: no-repeat;
-	 background-size: cover; 
+	background-color:#E4E4E4;
 }
 .div3{
 	border:black solid 2px;
@@ -236,17 +230,25 @@ form{
 	padding-top:50px;
 }
 .contact-container a:hover {
-  color: #C8B26B;
+  color: #94A6B3;
 }
-.special img{
+.Our-restaurant{
 	border:black solid 2px;
-	width:78%;
-	margin-right:0px;
-	text-align:right;
+	 background-image: url("images/restaurant22.jpg");
+    background-repeat: no-repeat;
+	 background-size: cover; 
+	 height:400px;
+	 background-position: center;
+	 margin-bottom:40px;
 }
-.special h1{
-	padding-top:220px;
-	padding-bottom:50px;
+.gallery-container{
+	width:100%;
+	padding-top:140px;
+	margin:auto;
 	text-align:center;
-	font-family:Ink Free;
+}
+.Our-restaurant h1{
+	color:white;
+	padding-top:130px;
+	font-size:50px;
 }
