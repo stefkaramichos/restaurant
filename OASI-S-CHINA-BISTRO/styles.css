@@ -4,6 +4,7 @@ header{
 	width:100%;
 	top:0px;
 	left:0px;
+	
 }
 .header-container{
 	width:78%;
@@ -58,12 +59,31 @@ main{
 	background-color:#94A6B3;
 }
 .main-container{
+	width:68%;                                    
+	margin:auto;
+	padding:50px;
+	padding-top:16%;
+	text-align:center;
+}
+@media(min-width:885px) and (max-width:1220px){
+.main-container{
 	width:68%;
 	margin:auto;
 	padding:50px;
-	padding-top:200px;
+	padding-top:30%;
 	margin:auto;
 	text-align:center;
+}
+}
+@media(max-width:884px){
+.main-container{
+	width:68%;
+	margin:auto;
+	padding:50px;
+	padding-top:60%;
+	margin:auto;
+	text-align:center;
+}
 }
 .main-container div{
 	border:black solid 2px;
@@ -124,11 +144,29 @@ footer{
 	width:60%;
 	margin:auto;
 	padding:50px;
-	padding-top:200px;
+	padding-top:16%;
 	margin:auto;
 	text-align:center;
 	
 }
+@media(min-width:885px) and (max-width:1220px){
+.piata{		width:60%;
+	margin:auto;
+	padding:50px;
+	padding-top:30%;
+	margin:auto;
+	text-align:center;
+	
+}}
+@media(max-width:884px){
+.piata{		width:60%;
+	margin:auto;
+	padding:50px;
+	padding-top:60%;
+	margin:auto;
+	text-align:center;
+	
+}}
 .piata div{
 	border:black solid 2px;
 	padding-bottom:90px;
@@ -152,12 +190,34 @@ aside{
 	background-color:#ffffff;
 	float:left;
 	width:15%;
-	margin-top:200px;
+	margin-top:16%;
 	margin-left:30px;
 	margin-right:30px;
 	text-align:center;
 	border:black solid 2px;
 }
+@media(min-width:885px) and (max-width:1220px){
+aside{
+	background-color:#ffffff;
+	float:left;
+	width:15%;
+	margin-top:30%;
+	margin-left:30px;
+	margin-right:30px;
+	text-align:center;
+	border:black solid 2px;
+}}
+@media(max-width:884px){
+aside{
+	background-color:#ffffff;
+	float:left;
+	width:15%;
+	margin-top:60%;
+	margin-left:30px;
+	margin-right:30px;
+	text-align:center;
+	border:black solid 2px;
+}}
 aside a:visited {
   color: black;
 }
